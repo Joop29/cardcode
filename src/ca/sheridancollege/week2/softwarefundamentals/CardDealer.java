@@ -11,8 +11,9 @@ package ca.sheridancollege.week2.softwarefundamentals;
  */
 public class CardDealer 
 {
-    public static void main(String[] args)
+    public static void main(String[] args)       
     {
+        Card newcard = new Card("Hearts",10);
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
     }
